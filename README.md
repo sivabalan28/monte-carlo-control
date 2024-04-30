@@ -107,7 +107,6 @@ def mc_control(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio
 ```py
 import random
 import numpy as np
-
 def probability_success(env, pi, goal_state, n_episodes=100, max_steps=200, seed=123):
     random.seed(seed)
     np.random.seed(seed)
@@ -156,17 +155,7 @@ results(env, optimal_pi, goal_state=goal_state)
 
 ```
 ## OUTPUT:
-### State - Value Function
-![275263243-cf55e033-41c0-412f-ba29-1f7aff6ef3e7](https://github.com/MEENA155/monte-carlo-control/assets/94677128/2a594b57-5413-4b91-8d31-58c9391c096f)
-
-### Action - Value Function
-![275263263-19b93272-369a-4837-a915-300c2820e4db](https://github.com/MEENA155/monte-carlo-control/assets/94677128/dd340ab5-17de-4b9f-8d57-7f059b753e06)
-
-### Policy
-![275263275-801edbb1-4db8-4408-8289-ad0710bb6973](https://github.com/MEENA155/monte-carlo-control/assets/94677128/c3558b65-fe4a-4714-9868-f938ad9a140e)
-
-### Success Percentage of Policy
-![275263291-cd9e4926-6d51-4254-b342-dd390096ec51](https://github.com/MEENA155/monte-carlo-control/assets/94677128/3effb823-e249-4ce7-9c6e-e1cb88a19d68)
+![Screenshot 2024-04-30 141526](https://github.com/sivabalan28/monte-carlo-control/assets/113497347/e94ee177-6437-4acd-a909-b1d3af510fe4)
 
 ## RESULT:
 Thus a Python program is developed to find the optimal policy for the given RL environment using the Monte Carlo algorithm.
